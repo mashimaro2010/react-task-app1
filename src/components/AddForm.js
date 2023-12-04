@@ -12,7 +12,9 @@ export default function AddForm(props) {
             value={title}
             onChange={(e) => setTitle(e.target.value)}
           />
-          <button type="submit" className="submit-btn">{editId ? "อัพเดต":"เพิ่ม"}</button>
+          <button type="submit" className="submit-btn">
+            {editId ? "อัพเดต":"เพิ่ม"}
+          </button>
         </div>
       </form>
     </>

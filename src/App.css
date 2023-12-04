@@ -9,3 +9,13 @@
   border: 1px solid rgba(0,0,0,0.2);
   border-radius: 0.25rem;
 }
+.light{
+  background:white;
+  color: #000;
+  transition: all 500ms;
+}
+.drak{
+  background: #15202b;
+  color: white;
+  transition: all 500ms;
+}
