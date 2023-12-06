@@ -4,7 +4,7 @@ export default function Header(props){
     const {theme,setTheme}=props;
     function ToggleTheme(){
         if(theme==="light"){
-            setTheme("drak")
+            setTheme("dark")
         }else{
             setTheme("light")
         }
