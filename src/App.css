@@ -1,4 +1,4 @@
-.app{
+.App{
   min-height: 100vh;
 }
 .container{
@@ -14,7 +14,7 @@
   color: #000;
   transition: all 500ms;
 }
-.drak{
+.dark{
   background: #15202b;
   color: white;
   transition: all 500ms;
